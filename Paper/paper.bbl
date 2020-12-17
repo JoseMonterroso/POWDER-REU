@@ -1,0 +1,85 @@
+\begin{thebibliography}{10}
+
+\bibitem{SDX1}
+Muhammad Shahbaz Sean P. Donovan Brandon Schlinker Nick Feamster Jennifer
+  Rexford Scott Shenker Russ Clark Ethan Katz-Bassett Arpit~Gupta,
+  Laurent~Vanbever.
+\newblock Sdx: a software defined internet exchange.
+\newblock In {\em ACM SIGCOMM Computer Communication Review}, pages 551--562,
+  2014.
+
+\bibitem{SDX2}
+Rudiger Birkner Marco Canini Nick Feamster Jennifer Rexford Laurent~Vanbever
+  Arpit~Gupta, Robert~MacDavid.
+\newblock An industrial-scale software defined internet exchange point.
+\newblock In {\em NSDI'16: Proceedings of the 13th Usenix Conference on
+  Networked Systems Design and Implementation}, pages 1--14, 2016.
+
+\bibitem{MPLSSDN}
+Hafsa Ait Oulahyane Mohamed Talea Assia~Bakali Ayoub~Bahnasse, Fatima
+  Ezzahraa~Louhab.
+\newblock Novel sdn architecture for smart mpls traffic engineering-diffserv
+  aware management.
+\newblock In {\em Future Generation Computer Systems 87}, pages 115--126, May
+  2018.
+
+\bibitem{SRINFO}
+B.~Decraene S. Litkowski R.~Shakir C.~Filsfils, S.~Previdi.
+\newblock Segment routing architecture.
+\newblock In {\em Internet Engineering Task Force}, 2018.
+
+\bibitem{SDNNFV}
+Hui Cheng Min Huang. Keqin Li Sajal K.~Das Chao~Bu, Xingwei~Wang.
+\newblock Enabling adaptive routing services customization via the integration
+  of sdn and nfv.
+\newblock In {\em Journal of Network and Computer Applications 93}, pages
+  123--136, October 2017.
+
+\bibitem{SRV6}
+Olivier~Bonaventure David~Lebrun.
+\newblock Implementing ipv6 segment routing in the linux kernal.
+\newblock In {\em ANRW '17: Proceedings of the Applied Network Research
+  Workshop}, 2017.
+
+\bibitem{powder}
+{Flux Research Group}.
+\newblock {POWDER}: Platform for open wireless data-driven experimental
+  research.
+\newblock {\url{https://powderwireless.net/}}, 2020.
+
+\bibitem{largeBGP}
+K.~Patel I. Bagdonas N.~Hilliard J.~Heitz, J.~Snijders.
+\newblock Bgp large communities attribute.
+\newblock In {\em Internet Engineering Task Force}, 2017.
+
+\bibitem{BGPPolicy}
+J.~Rexford M.~Caesar.
+\newblock Bgp routing policies in isp networks.
+\newblock In {\em IEEE Network}, pages 5--11, 2005.
+
+\bibitem{RouteServers}
+Anja Feldmann Nikolaos Chatzis Jan Boettger Walter~Willinger Philipp~Richter,
+  Georgios~Smaragdakis.
+\newblock Peering at peerings: On the role of ixp route servers.
+\newblock In {\em IMC '14: Proceedings of the 2014 Conference on Internet
+  Measurement Conference}, pages 31--44, 2014.
+
+\bibitem{ipv6}
+R.~Hinden S.~Deering.
+\newblock Internet protocol, version 6 (ipv6) specification.
+\newblock In {\em Internet Engineering Task Force}, 2017.
+
+\bibitem{SRR}
+Jacobus van der~Merwe Simon~Redman, David~Johnson.
+\newblock Critical reroute: A practical approach too network flow
+  prioritization using segment routing.
+\newblock In {\em 2019 IEEE International Symposium on Local and Metropolitan
+  Area Networks}, pages 1--6, 2019.
+
+\bibitem{InterDSDN}
+X.~Dimitropoulos V.~Kotronis, A.~Gamperli.
+\newblock Routing centralization across domains via sdn: A model and emulation
+  framework for bgp evolution.
+\newblock In {\em Computer Networks}, pages 227--239, 2015.
+
+\end{thebibliography}

@@ -1,0 +1,58 @@
+% -*- mode: LaTeX -*-
+%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Introduction}
+\label{sec:introduction}
+
+
+Today's internet plays a vital role in providing a multitude of services for the user. With all traffic
+being treated the same, the internet demands a more reliable method of routing. Today's routing
+involves the 'message in a bottle' approach. In this approach we heavily rely on routing tables to 
+push packets towards the right destination. No matter what type of service the traffic may be, all 
+traffic is treated the same. In this primitive approach there is no sense of urgency or priority. 
+Hence a more granular approach over today's routing is needed more than ever. 
+ 
+In past attempts within an Autonomous System (AS) we have seen Multiprotocol Label Switching
+(MPLS)~\cite{MPLSSDN}. In MPLS traffic is directed from one node to the next by the use of short
+path labels rather than long network addresses. We have also seen Software Defined Networking
+(SDN)~\cite{SDNNFV} approaches to service specific routing where an individual packet header's
+attributes are matched and an action is imposed on the packet. Segment Routing (SR)~\cite{SRR}
+along side IPv6 is the newest in routing paradigms. In SR using IPv6, an ordered list of segments is encoded
+in a routing extension header. The header contains a list of segments that guide the packet through
+the AS. 
+
+Similarly on the Interdomain level we have seen Software Defined Internet Exchange Points (SDXs) ~\cite{SDX1, SDX2}.
+SDXs bring the ideas behind SDN to interdomain routing. Located between
+ASes, SDXs aid in service specific routing by allowing the network to execute a far wider range of 
+decisions concerning end-to-end traffic delivery. There also exists service specific routing across 
+domains through the use of SDN~\cite{InterDSDN}. The idea is to form a logically centralized 
+controller running routing processes over multiple ASes. The controller would be aware of (parts of)
+the policies, and topologies of the ASes. We have also seen approaches at the interdomain level 
+that involve using route servers~\cite{RouteServers}. Router servers located at the heart of an
+internet exchange point (IXP) are key enablers for offering new and complex peering options to
+IXP members.
+ 
+In this paper we will define a new approach to service specific routing. In our approach we use 
+Border Gateway Protocol (BGP) and segment routing to create a novel service specific
+interdomain and intradomain routing framework. BGP is the primary form of interdomain 
+communication amongst ASes. As such it's extremely difficult to create a new interdomain 
+protocol because every single AS would need to change in order to enable full internet
+connectivity. Therefore, we have chosen to remain in the realm of BGP. The combination of 
+BGP working at the control plan and SR working at the data plan enables a fine grained control 
+of the treatment of service specific traffic. 
+
+The contributions of this work are the following. First, we propose a new approach to service
+specific routing involving BGP's large community attribute to inform ASes on how to handle the
+traffic of an advertised prefix. The ASes will use SR to guide the traffic in a matter they see fit
+regarding the type of traffic that is being guided. Secondly, we develop a proof of concept 
+demonstration using the POWDER testbed. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% End of file.
+
+
+
+

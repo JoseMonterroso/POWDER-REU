@@ -1,0 +1,5 @@
+# REU 2020 Project Paper: Service Specific Routing 
+
+Today’s routing involves the ’message in a bottle’ approach. In this approach we heavily rely on routing tables to push packets towards the right destination. This leaves little to no control for anyone to precisely direct traffic through an Autonomous System, let alone a neighboring Autonomous system. Thus we would like to control network and security characteristics at endpoints across an interdomain environment. In this paper we show how we used segment routing and BGP working at the data and control planes respectively to create a novel service specific routing framework for intra- and inter-domain network topologies.
+
+

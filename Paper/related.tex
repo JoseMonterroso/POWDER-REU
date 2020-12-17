@@ -1,0 +1,20 @@
+%% -*- mode: LaTeX -*-
+%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Related Work}
+\label{sec:related}
+Service specific routing (SSR) gives us the ability to guide specific data traffic to and from a destination. SSR within an AS is governed today by SDN, MPLS, SR, and a combination of SDN with Network Function Virtualization (NFV). Meanwhile, SSR at the Inter-domain level is primarily guided by SDXs. In this paper we introduce a new flavor of SSR that utilizes SR, SDN, and BGP's large community attribute. 
+
+MPLS networking revolves around using labels to guide traffic within the AS. This is MPLS’s primary strength because not only does traffic engineering allow us to choose the shortest path, but it also creates a specified path given constraints. However, customizing Quality of Service (QoS) policies that MPLS uses to guide its traffic based on specified services is a difficult task. Adding an SDN controller~\cite{MPLSSDN} to facilitated and check the reliability of QoS policies improves the MPLS method to SSR. Collected information pertaining to the routers and their paths (e.g. bandwidth, broken links), is given to the SDN controller, so that it can create appropriate Label-Switched Paths.
+
+Current routing services do not have the ability to manage network resources and cannot optimally choose dynamic services. However, a combination of SDN and NFV through the use of a matching algorithm facilitate suitable routing services per request. The combination of the two create an Adaptive Routing Service Customization (ARSC)~\cite{SDNNFV}. ARSC provides unique customizable QoS routing algorithms that can be used for the user and the ISP. 
+
+There are also researches on SR, specifically SR’s ability to use live traffic and topology information to optimize the network of an AS in real time~\cite{SRR}. Through the use of a critical reroute design’s route planner, this approach tries to reduce abundant traffic off a link by providing alternate paths using SR. Once the route has been chosen, the path is encoded as a list of Segment IDs (SIDs) dictating the packet where it needs to go to next. 
+
+SDX research is a growing field. BGP serves as an IP prefix destination based forwarding network. This limits the internet’s ability to service specific traffic. At Internet Exchange Points (IXPs) an SDN controller has been added to direct traffic based on packet header matching. This allows for specific decision based on the type of service, or sender/receiver. IXPs are the current location to focus on, as they connect various ASes, and actuate policy agreements. Given the variety of services today, SDX could install custom rules for groups of flows to specific parts of the flow space~\cite{SDX1}. However, SDX’s current switch hardware cannot support large forwarding tables, nor efficiently create policy-based routes. iSDX~\cite{SDX2} is a version of SDX that can scale and perform for larger IXPs.  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% End of file.

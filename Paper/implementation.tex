@@ -1,0 +1,35 @@
+% -*- mode: LaTeX -*-
+%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Implementation}
+\label{sec:implementation}
+
+Now we will proceed to discuss the implementation behind our design.
+We will discuss in detail what our work uses to achieve service specific
+routing at the intra- and inter-domain topologies. 
+
+\textbf{BGP} BGP is used to support prefix advertisement along with the usage
+of BGP large community attribute. Where the large community attribute is designed
+to be seen as number:number:number. Where the first number is the global identifier,
+and the second and third numbers respectively represent the service and subtype of a service. 
+
+\textbf{Free Range Routing} We choose Free Range Routing (FRR) to be our
+routing stack. We will be running IPv6 in our network. The daemons we have chosen 
+to use in FRR are Zebra, BGP, and OSPFv3. Zebra is an ip routing manger that
+provides us with routing table updates, interface lookups, and redistribution of routes
+between different routing protocols. Next we used BGP, specifically BGP version 4. 
+Lastly, we used OSPFv3 that supports OSPF routing for an IPv6 network. 
+
+\textbf{Segment Routing} For the adoption of segment routing into our network we 
+we used a linux kernel and set various sysctls to enable segment routing.~\cite{SRV6}
+
+\textbf{SDN} We created our own application to be able to read BGP prefixes, and acquire their 
+respective large community attribute. From there we had associated segment routing rules 
+that would be pushed into the router depending on the service type the large community 
+attribute defined for the prefix.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% End of file.

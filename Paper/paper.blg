@@ -1,0 +1,160 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: paper.aux
+The style file: plain.bst
+Database file #1: bibliography.bib
+You're missing a field name---line 10 of file bibliography.bib
+ : 
+ : % author =  "G{\"{u}}ndo\u{g}ran, Cenk and Kietzmann, Peter and Lenders,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--string name "july" is undefined
+--line 64 of file bibliography.bib
+Warning--string name "august" is undefined
+--line 76 of file bibliography.bib
+Warning--string name "march" is undefined
+--line 88 of file bibliography.bib
+Warning--string name "november" is undefined
+--line 100 of file bibliography.bib
+Warning--string name "november" is undefined
+--line 112 of file bibliography.bib
+Warning--string name "december" is undefined
+--line 124 of file bibliography.bib
+Warning--string name "february" is undefined
+--line 147 of file bibliography.bib
+Warning--string name "july" is undefined
+--line 156 of file bibliography.bib
+Warning--string name "july" is undefined
+--line 164 of file bibliography.bib
+Warning--string name "july" is undefined
+--line 172 of file bibliography.bib
+Too many commas in name 1 of "Ayoub Bahnasse, Fatima Ezzahraa Louhab, Hafsa Ait Oulahyane, Mohamed Talea, Assia Bakali" for entry MPLSSDN
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Ayoub Bahnasse, Fatima Ezzahraa Louhab, Hafsa Ait Oulahyane, Mohamed Talea, Assia Bakali" for entry MPLSSDN
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Chao Bu, Xingwei Wang, Hui Cheng, Min Huang. Keqin Li, Sajal K. Das" for entry SDNNFV
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Chao Bu, Xingwei Wang, Hui Cheng, Min Huang. Keqin Li, Sajal K. Das" for entry SDNNFV
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Arpit Gupta, Laurent Vanbever, Muhammad Shahbaz, Sean P. Donovan, Brandon Schlinker, Nick Feamster, Jennifer Rexford, Scott Shenker, Russ Clark, Ethan Katz-Bassett" for entry SDX1
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Arpit Gupta, Laurent Vanbever, Muhammad Shahbaz, Sean P. Donovan, Brandon Schlinker, Nick Feamster, Jennifer Rexford, Scott Shenker, Russ Clark, Ethan Katz-Bassett" for entry SDX1
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Arpit Gupta, Laurent Vanbever, Muhammad Shahbaz, Sean P. Donovan, Brandon Schlinker, Nick Feamster, Jennifer Rexford, Scott Shenker, Russ Clark, Ethan Katz-Bassett" for entry SDX1
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Arpit Gupta, Laurent Vanbever, Muhammad Shahbaz, Sean P. Donovan, Brandon Schlinker, Nick Feamster, Jennifer Rexford, Scott Shenker, Russ Clark, Ethan Katz-Bassett" for entry SDX1
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Arpit Gupta, Laurent Vanbever, Muhammad Shahbaz, Sean P. Donovan, Brandon Schlinker, Nick Feamster, Jennifer Rexford, Scott Shenker, Russ Clark, Ethan Katz-Bassett" for entry SDX1
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Arpit Gupta, Laurent Vanbever, Muhammad Shahbaz, Sean P. Donovan, Brandon Schlinker, Nick Feamster, Jennifer Rexford, Scott Shenker, Russ Clark, Ethan Katz-Bassett" for entry SDX1
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Arpit Gupta, Laurent Vanbever, Muhammad Shahbaz, Sean P. Donovan, Brandon Schlinker, Nick Feamster, Jennifer Rexford, Scott Shenker, Russ Clark, Ethan Katz-Bassett" for entry SDX1
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Arpit Gupta, Robert MacDavid, Rudiger Birkner, Marco Canini, Nick Feamster, Jennifer Rexford, Laurent Vanbever" for entry SDX2
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Arpit Gupta, Robert MacDavid, Rudiger Birkner, Marco Canini, Nick Feamster, Jennifer Rexford, Laurent Vanbever" for entry SDX2
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Arpit Gupta, Robert MacDavid, Rudiger Birkner, Marco Canini, Nick Feamster, Jennifer Rexford, Laurent Vanbever" for entry SDX2
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Arpit Gupta, Robert MacDavid, Rudiger Birkner, Marco Canini, Nick Feamster, Jennifer Rexford, Laurent Vanbever" for entry SDX2
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Philipp Richter, Georgios Smaragdakis, Anja Feldmann, Nikolaos Chatzis, Jan Boettger, Walter Willinger" for entry RouteServers
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Philipp Richter, Georgios Smaragdakis, Anja Feldmann, Nikolaos Chatzis, Jan Boettger, Walter Willinger" for entry RouteServers
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Philipp Richter, Georgios Smaragdakis, Anja Feldmann, Nikolaos Chatzis, Jan Boettger, Walter Willinger" for entry RouteServers
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "J. Heitz, J. Snijders, K. Patel, I. Bagdonas, N. Hilliard" for entry largeBGP
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "J. Heitz, J. Snijders, K. Patel, I. Bagdonas, N. Hilliard" for entry largeBGP
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "C. Filsfils, S. Previdi, B. Decraene, S. Litkowski, R. Shakir" for entry SRINFO
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "C. Filsfils, S. Previdi, B. Decraene, S. Litkowski, R. Shakir" for entry SRINFO
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Arpit Gupta, Laurent Vanbever, Muhammad Shahbaz, Sean P. Donovan, Brandon Schlinker, Nick Feamster, Jennifer Rexford, Scott Shenker, Russ Clark, Ethan Katz-Bassett" for entry SDX1
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Arpit Gupta, Laurent Vanbever, Muhammad Shahbaz, Sean P. Donovan, Brandon Schlinker, Nick Feamster, Jennifer Rexford, Scott Shenker, Russ Clark, Ethan Katz-Bassett" for entry SDX1
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Arpit Gupta, Laurent Vanbever, Muhammad Shahbaz, Sean P. Donovan, Brandon Schlinker, Nick Feamster, Jennifer Rexford, Scott Shenker, Russ Clark, Ethan Katz-Bassett" for entry SDX1
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Arpit Gupta, Laurent Vanbever, Muhammad Shahbaz, Sean P. Donovan, Brandon Schlinker, Nick Feamster, Jennifer Rexford, Scott Shenker, Russ Clark, Ethan Katz-Bassett" for entry SDX1
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Arpit Gupta, Laurent Vanbever, Muhammad Shahbaz, Sean P. Donovan, Brandon Schlinker, Nick Feamster, Jennifer Rexford, Scott Shenker, Russ Clark, Ethan Katz-Bassett" for entry SDX1
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Arpit Gupta, Laurent Vanbever, Muhammad Shahbaz, Sean P. Donovan, Brandon Schlinker, Nick Feamster, Jennifer Rexford, Scott Shenker, Russ Clark, Ethan Katz-Bassett" for entry SDX1
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Arpit Gupta, Laurent Vanbever, Muhammad Shahbaz, Sean P. Donovan, Brandon Schlinker, Nick Feamster, Jennifer Rexford, Scott Shenker, Russ Clark, Ethan Katz-Bassett" for entry SDX1
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Arpit Gupta, Robert MacDavid, Rudiger Birkner, Marco Canini, Nick Feamster, Jennifer Rexford, Laurent Vanbever" for entry SDX2
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Arpit Gupta, Robert MacDavid, Rudiger Birkner, Marco Canini, Nick Feamster, Jennifer Rexford, Laurent Vanbever" for entry SDX2
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Arpit Gupta, Robert MacDavid, Rudiger Birkner, Marco Canini, Nick Feamster, Jennifer Rexford, Laurent Vanbever" for entry SDX2
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Arpit Gupta, Robert MacDavid, Rudiger Birkner, Marco Canini, Nick Feamster, Jennifer Rexford, Laurent Vanbever" for entry SDX2
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Ayoub Bahnasse, Fatima Ezzahraa Louhab, Hafsa Ait Oulahyane, Mohamed Talea, Assia Bakali" for entry MPLSSDN
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Ayoub Bahnasse, Fatima Ezzahraa Louhab, Hafsa Ait Oulahyane, Mohamed Talea, Assia Bakali" for entry MPLSSDN
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "C. Filsfils, S. Previdi, B. Decraene, S. Litkowski, R. Shakir" for entry SRINFO
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "C. Filsfils, S. Previdi, B. Decraene, S. Litkowski, R. Shakir" for entry SRINFO
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Chao Bu, Xingwei Wang, Hui Cheng, Min Huang. Keqin Li, Sajal K. Das" for entry SDNNFV
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Chao Bu, Xingwei Wang, Hui Cheng, Min Huang. Keqin Li, Sajal K. Das" for entry SDNNFV
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "J. Heitz, J. Snijders, K. Patel, I. Bagdonas, N. Hilliard" for entry largeBGP
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "J. Heitz, J. Snijders, K. Patel, I. Bagdonas, N. Hilliard" for entry largeBGP
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Philipp Richter, Georgios Smaragdakis, Anja Feldmann, Nikolaos Chatzis, Jan Boettger, Walter Willinger" for entry RouteServers
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Philipp Richter, Georgios Smaragdakis, Anja Feldmann, Nikolaos Chatzis, Jan Boettger, Walter Willinger" for entry RouteServers
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Philipp Richter, Georgios Smaragdakis, Anja Feldmann, Nikolaos Chatzis, Jan Boettger, Walter Willinger" for entry RouteServers
+while executing---line 1090 of file plain.bst
+You've used 13 entries,
+            2118 wiz_defined-function locations,
+            574 strings with 6374 characters,
+and the built_in function-call counts, 4252 in all, are:
+= -- 419
+> -- 91
+< -- 8
++ -- 40
+- -- 26
+* -- 196
+:= -- 623
+add.period$ -- 39
+call.type$ -- 13
+change.case$ -- 52
+chr.to.int$ -- 0
+cite$ -- 13
+duplicate$ -- 233
+empty$ -- 444
+format.name$ -- 26
+if$ -- 981
+int.to.chr$ -- 0
+int.to.str$ -- 13
+missing$ -- 12
+newline$ -- 68
+num.names$ -- 26
+pop$ -- 96
+preamble$ -- 1
+purify$ -- 39
+quote$ -- 0
+skip$ -- 173
+stack$ -- 0
+substring$ -- 272
+swap$ -- 83
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 52
+warning$ -- 0
+while$ -- 50
+width$ -- 15
+write$ -- 140
+(There were 45 error messages)

@@ -1,0 +1,65 @@
+SEGMENT ROUTING COMMANDS FOR 'critical-reroute-ammon' PROFILE (COMMAND LINE INPUTS)
+-------------------------------------------
+
+CAPTURE PACKETS FOR WIRESHARK INSPECTION:
+sudo tcpdump -i <INTF> -v
+sudo tcpdump -i <INTF> -v -w <FP>
+EX:
+sudo tcpdump -i eth2 -v
+sudo tcpdump -i eth2 -v -w /tmp/foo.pcap
+
+
+SHOW ROUTING TABLE:
+ip -6 route show
+FILTERING ROUTE:
+ip -6 route | grep <KYWD>
+Ip -6 route get <KYWD>
+EX:
+ip -6 route | grep seg6
+ip -6 route get 2620:7c:d000:ffff::2
+
+
+IPV6 PING COMMAND:
+ping6 -c <# OF PKTS> <DST>
+EX:
+ping6 -c 1 node-11se-11
+
+
+COPY WIRESHARK FILE TO PC FOR (FAST/EASY) WIRESHARK VIEW:
+scp -o Port=<PORT#> <SSH LOC>:<FP> .
+EX: 
+scp -o Port=27602 Jmon@pc827.emulab.net:/tmp/foo.pcap .
+
+
+FIND TOPOLOGY HOSTS (GREAT FOR DST LOOKUP):
+less /etc/hosts
+SEARCHING FORWARD:
+/<PATTERN>
+SEARCHING BACKWARD:
+?<PATTERN>
+
+
+ADDING ROUTING RULE:
+sudo ip -6 route add <DST> dev <INTF> encap seg6 mode inline segs <SG1,...> 
+EX:
+sudo ip -6 route add 2620:7c:d000:ffff::4d dev eth2 encap seg6 mode inline segs 2620:7c:d000:ffff::2
+
+
+DELETING ROUTING RULE:
+sudo ip -6 route del <dst> dev <INTF> encap seg6 mode inline segs <Sgs List>
+EX:
+sudo ip -6 route del 2620:7c:d000:ffff::4d dev eth2 encap seg6 mode inline segs 2620:7c:d000:ffff::2
+
+MISCELLANEOUS COMMANDS:
+sudo -s
+cd /etc/frr
+vim daemons
+systemctl enable frr
+systemctl restart frr
+vtysh
+config
+
+SCRIPT COMMANDS: 
+vim name.sh
+chmod 755 name.sh
+./name.sh

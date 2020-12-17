@@ -1,0 +1,33 @@
+OVERALL IDEA
+	BGP remains to be the predominate communication between ASes. Any new form of communication would require a massive update, as well as a multitude of reconfiguration throughout the whole internet. Even though controlling network and security characteristic is in affect today, it requires massive overhead. For example, in an SDX approach we have controls at internet exchange points that regulate traffic accordingly. We also have an approach were each AS has its own controller, however this adds a new layer of difficulty because now each neighboring controller needs to communicate with each other. In the above situations we are manipulating the data plane, however we would rather allow the AS to initially designate routers rather than an overall entity control everything. Through the use of segmentation routing with a mix of BGP we would like to enact the paths. 
+
+
+USE CASES
+1 – Network Performance characteristics
+	Driving traffic accordingly for optimal path
+2 – Defense/Security 
+	Controlling the flows of Intra/Inter domain networking to create an isolated Network
+3 – Reachability 
+Set up a Company that has branches everywhere without having CDNs
+4 – Service all of the clients at the edge
+	Different services with respect to different fields 
+EX: Esports, Streaming, Medical (QoS/security/Isolation)
+5 – Large data exchange 
+	High performance exchange
+	Bringing high layer data sets with specific network and security characteristics 
+
+ 
+Within AS we use SR through a proposed route to get to Gateway router. Then there would either be a controller or IXP that appends a new SR header to the path so that I can follow the proposed route to either its destination or Gateway router. 
+
+Use Case – Differentiating data traffic (e.g. Streaming vs Gaming)
+We start from the host that creates a packet that is sent to the first hop router.
+Because of the SDN approach of Segmentation Routing, the router will know what SR header it needs to give to the packet so that it will travel accordingly.
+Upon the arrival at the Gateway router or IXP 
+
+ A new SR header is appended to the Packet so that it can reach its destination, or gateway router to the next AS.
+
+
+HPC use case – Large science instrument pushing a large data set from EU to US
+	Want to set up a dynamic multipath (Capacity enhancement) configuration  
+	Thinking of one to one path but with different destinations
+	Elephant flows vs normal flows (prefix) that get advertised to a different   

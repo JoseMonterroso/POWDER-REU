@@ -1,0 +1,27 @@
+Open SSH to Node-10, Node-10se, Node-5, Node-13, Node-17, Finder window, normal terminal
+Show BGP advertisement Propagation from host
+Show BGP advertisement propagation to everywhere else
+
+Add Routing Rules To Destination 
+# NODE 10
+sudo ip -6 route add 3000:63b:3ff:fdd2::8e dev eth4 encap seg6 mode encap segs 2620:7c:d000:ffff::21,2620:7c:d000:ffff::e,2620:7c:d000:ffff::26,2620:7c:d000:ffff::59
+(Node-7 => Node-8 => Node-cb => Node-5)
+
+ip -6 route | grep seg6
+
+sudo tcpdump -i eth4 -v -w /tmp/as1.pcap
+scp -o Port=25474 Jmon@pc760.emulab.net:/tmp/as1.pcap .
+
+
+# NODE 5
+sudo ip -6 route add 3000:63b:3ff:fdd2::8e dev eth4 encap seg6 mode encap segs 2001:db8:a0b:12f0::16,2001:db8:a0b:12f0::2e,2001:db8:a0b:12f0::3e,2001:db8:a0b:12f0::66 
+(Node-11 => Node-12 => Node-co)
+
+ip -6 route | grep seg6
+
+sudo tcpdump -i eth3 -v -w /tmp/as2.pcap
+scp -o Port=25478 Jmon@pc807.emulab.net:/tmp/as2.pcap .
+
+# NODE 13
+sudo tcpdump -i eth4 -v -w /tmp/as3.pcap
+scp -o Port=25474 Jmon@pc782.emulab.net:/tmp/as3.pcap .
